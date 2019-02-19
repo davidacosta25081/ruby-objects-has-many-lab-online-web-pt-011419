@@ -13,8 +13,6 @@ def self.all
   @@all
 end
 
-def artist_name (artist)
-  song.artist = self
-  song.artist.name
-
+def artist_name
+  self.artist.name
 end
