@@ -15,12 +15,12 @@ def self.all
 end
 
 def add_song (song)
-  @songs << song
+  @@all << song
   song.artist = self
 end
 
 def songs
-  @songs
+  @@all
 end
 
 def add_song_by_name(name)
